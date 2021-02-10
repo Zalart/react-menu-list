@@ -4,7 +4,7 @@ import './CardsMenu.css';
 
 
 const CardsMenu = () => {
-    data.sort((a, b) => a.price > b.price ? 1 : -1);
+    data.sort((a, b) => a.price < b.price ? 1 : -1);
     return (
         <div className="CardsMenu">
             {

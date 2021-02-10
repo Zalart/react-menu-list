@@ -5,7 +5,7 @@ import CardsMenu from './components/CardsMenu';
 function App() {
   return (
     <>
-      <h1>DRANIK LAND MENU</h1>
+      <h1>DRANIK-LAND MENU</h1>
       <div className="App">
 
         <CardsMenu {...data} />
