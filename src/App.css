@@ -1,12 +1,22 @@
-.App {
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  text-align: center;
 }
+.textContent {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.App {
 
+  text-align: center;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
